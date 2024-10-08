@@ -4,7 +4,7 @@
 
 import { Config } from "../Config";
 declare var FaceTecSDK: any;
-import type { FaceTecSessionResult, FaceTecFaceScanResultCallback, FaceTecFaceScanProcessor } from "../../core-sdk/FaceTecSDK.js/FaceTecPublicApi";
+import type { FaceTecSessionResult, FaceTecFaceScanResultCallback, FaceTecFaceScanProcessor } from "../../public/core-sdk/FaceTecSDK.js/FaceTecPublicApi";
 
 //
 // This is an example self-contained class to perform Liveness Checks with the FaceTec SDK.

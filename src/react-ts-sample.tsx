@@ -12,10 +12,10 @@ export var SampleApp = (function(): any {
   // Wait for onload to be complete before attempting to access the Browser SDK.
   window.onload = function(): void {
     // Set a the directory path for other FaceTec Browser SDK Resources.
-    FaceTecSDK.setResourceDirectory("../../core-sdk/FaceTecSDK.js/resources");
+    FaceTecSDK.setResourceDirectory("/core-sdk/FaceTecSDK.js/resources");
 
     // Set the directory path for required FaceTec Browser SDK images.
-    FaceTecSDK.setImagesDirectory("../../core-sdk/FaceTec_images");
+    FaceTecSDK.setImagesDirectory("/core-sdk/FaceTec_images");
 
     // Initialize FaceTec Browser SDK and configure the UI features.
     FaceTecSDK.initializeInDevelopmentMode(Config.DeviceKeyIdentifier, Config.PublicFaceScanEncryptionKey, function(initializedSuccessfully: boolean) {
